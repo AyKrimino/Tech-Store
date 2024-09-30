@@ -60,3 +60,28 @@ nav a:hover {
   border-bottom: 1px solid #19191995;
   color: #19191995;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.btn {
+  font-weight: bold;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-btn {
+  padding: 10px 30px;
+  border: 2px solid rgb(3, 4, 94);
+  background-color: transparent;
+  color: rgb(3, 4, 94);
+  transition: all 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+  background-color: rgba(0, 119, 182, 0.5);
+}
