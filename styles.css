@@ -107,3 +107,53 @@ nav a:hover {
   text-align: justify;
   margin: 20px 0;
 }
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  max-width: 45%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.item-title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.item-price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-price {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.item-btn {
+  padding: 5px 20px;
+  border: 2px solid #152888ab;
+  background-color: #2846dcab;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-btn:hover {
+  background-color: #1b36c1ab;
+}
+
+@media (max-width: 768px) {
+  .item {
+    max-width: 100%;
+  }
+}
