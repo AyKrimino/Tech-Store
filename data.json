@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "category": "Laptops",
+      "items": [
+        {
+          "title": "HP Laptop 15-fd0046nk",
+          "image": "/images/laptop1.jpg",
+          "description": "15.6-inch Full HD Display, Intel Core i5-1334U (up to 4.60 GHz, 10 cores), Windows 11 Home, 8GB DDR4 RAM, 512GB SSD, NVIDIA GeForce MX570 (2GB GDDR6), Wi-Fi, Bluetooth, USB Type-C, USB Type-A, HD Headphone/Microphone jack, Full keyboard with numpad, Silver & Warm Gold, 1-year warranty.",
+          "price": "1,929,000 DT"
+        },
+        {
+          "title": "ASUS TUF 507VI Gaming Laptop",
+          "image": "/images/laptop2.jpg",
+          "description": "15.6\" Full HD IPS display, Intel Core i7-13620H (up to 4.90 GHz, 10 cores), 24GB DDR5 RAM, 512GB SSD, NVIDIA GeForce RTX 4070 (8GB GDDR6), Wi-Fi, Bluetooth, 2x USB-A, 1x USB-C with DisplayPort support, Thunderbolt 4, HDMI 2.1, RJ45, backlit RGB Chiclet keyboard, Windows 11. 1-year warranty.",
+          "price": "5,159,000 DT"
+        },
+        {
+          "title": "MSI Gaming Laptop KATANA 17 B12VGK-416XFR",
+          "image": "/images/laptop3.jpg",
+          "description": "17.3-inch Full HD 144Hz display, Intel Core i7-12650H processor (up to 4.7GHz), 8GB RAM, 512GB NVMe SSD, NVIDIA GeForce RTX 4070 (8GB), RGB backlit keyboard, Wi-Fi 6, Bluetooth, USB-C, USB-A, HDMI, RJ45, HD webcam, 1-year warranty.",
+          "price": "4,699,000 DT"
+        }
+      ]
+    },
+    {
+      "category": "Phones",
+      "items": [
+        {
+          "title": "iPhone 14 Plus",
+          "image": "/images/phone1.jpg",
+          "description": "6.7\" OLED Super Retina XDR display, 2778 x 1284 resolution - A15 Bionic Chip (Hexa-core) - iOS 16 - 6GB RAM - 128GB storage - Rear Cameras: Dual 12MP (Wide f/1.5 and Ultra-Wide f/2.4) - Front Camera: 12MP (f/1.9) - 4K HDR video - 5G, Wi-Fi 6, Bluetooth 5.3 - 26-hour battery life, 4323mAh, fast charging 50% in 30 min - 15W wireless charging (MagSafe) - IP68 water resistance - Face ID, Apple Pay, Siri - Color: Midnight - 1-year warranty.",
+          "price": "3,579,000 DT"
+        },
+        {
+          "title": "Samsung Galaxy S24 Ultra Smartphone",
+          "image": "/images/phone2.jpg",
+          "description": "Dual SIM, 6.8\" Dynamic AMOLED 2X display with Quad HD+ (3120 x 1440) resolution, 120Hz refresh rate, and S Pen support. Powered by Qualcomm Snapdragon 8 Gen 3, with 12GB RAM and 256GB storage. Rear cameras: 200MP + 50MP + 12MP + 10MP, 100x digital zoom; front camera: 12MP. Features 5G, USB-C, GPS, Wi-Fi, Bluetooth 5.3, NFC, Android 14, 5000mAh battery, stereo speakers. Weight: 232g, color: Violet. 1-year warranty.",
+          "price": "1,899,000 DT"
+        },
+        {
+          "title": "Xiaomi Redmi Note 13 Pro Smartphone",
+          "image": "/images/phone3.jpg",
+          "description": "Dual SIM - 6.67\" AMOLED display with a 1.5K resolution (1220 x 2712 pixels) and 120Hz refresh rate - Corning Gorilla Glass Victus - MediaTek Dimensity 7200 Octa-Core processor (up to 2.8 GHz) - 12GB RAM and 512GB storage (expandable up to 1TB via microSDXC) - Android 13 with MIUI 14 - Triple rear cameras: 200MP main, 8MP ultra-wide, and 2MP macro; 16MP front camera - 5100mAh battery with 120W fast charging - In-display fingerprint sensor, Wi-Fi, GPS, facial recognition - Color: Black - 1-year warranty.",
+          "price": "5,799,000 DT"
+        }
+      ]
+    },
+    {
+      "category": "Accessories",
+      "items": [
+        {
+          "title": "Apple AirPods 3",
+          "image": "/images/acc1.jpg",
+          "description": "The Apple AirPods 3 are wireless Bluetooth earbuds with a Lightning charging case. They feature spatial audio, adaptive sound, and pressure sensors for easy playback control. With up to 6 hours of listening on a single charge and 30 hours with the case, they are sweat and water resistant and offer quick access to Siri. Available in white, they come with a one-year warranty.",
+          "price": "1,017,000 DT"
+        },
+        {
+          "title": "AQIRYS LIBERTAS Mechanical Gaming Keyboard",
+          "image": "/images/acc2.jpg",
+          "description": "Connects via dual mode: wireless (2.4 GHz and Bluetooth) and wired. Operating distance of up to 10 meters with a USB-C 2.0 interface. Compact 75% layout featuring HaiMu x AQIRYS Super Silent switches, rated for 100 million clicks at a force of 47 gf. It has dynamic RGB backlighting, 100% anti-ghosting (N-Key rollover), and 82 keys. Dimensions are 330.69 x 138.59 x 41.11 mm, weighing 1,000 g. Color: Black.",
+          "price": "268,000 DT"
+        },
+        {
+          "title": "Garmin Epix (Gen 2) Smartwatch",
+          "image": "/images/acc3.jpg",
+          "description": "features a 1.3\" AMOLED touchscreen with a resolution of 416 x 416 pixels and a sapphire crystal display. It has a Carbon Gray DLC titanium bezel and a reinforced polymer body. Weighing 70 g with dimensions of 47 x 47 x 14.5 mm, it is water-resistant up to 10 ATM and offers a battery life of up to 6 days. The watch includes 32 GB of memory and supports Bluetooth, ANT+, and Wi-Fi connectivity. It features advanced health monitoring with over 10 sensors, gaming functions, and various sport-specific tracking capabilities, making it perfect for fitness enthusiasts.",
+          "price": "4,899,000 DT"
+        }
+      ]
+    }
+  ]
+}
