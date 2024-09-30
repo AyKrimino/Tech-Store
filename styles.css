@@ -43,7 +43,7 @@ nav {
   border-bottom: 1px solid white;
 }
 
-nav ul {
+ul {
   padding: 30px;
   list-style-type: none;
   display: flex;
@@ -143,13 +143,34 @@ nav a:hover {
 .item-btn {
   padding: 5px 20px;
   border: 2px solid #152888ab;
-  background-color: #2846dcab;
+  background-color: #297fe2;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
 .item-btn:hover {
-  background-color: #1b36c1ab;
+  background-color: #297fe2be;
+}
+
+footer {
+  background-color: #297fe2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+  color: #fff;
+}
+
+footer li {
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 20%;
+  background-color: #3333331e;
+  transition: all 0.3s ease-in-out;
+}
+
+footer li:hover {
+  background-color: #33333364;
 }
 
 @media (max-width: 768px) {
