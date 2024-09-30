@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   font-family: Poppins;
-  color: #191919;
 }
 
 html,
@@ -30,17 +29,18 @@ body {
 .main-title {
   margin-top: 10px;
   font-size: 4em;
-  color: rgb(3, 4, 94);
+  color: #e0ffff;
 }
 
 header {
   background-image: url("images/header_background.jpg");
-  background-size: auto;
+  background-size: cover;
   background-position: center;
+  color: white;
 }
 
 nav {
-  border-bottom: 1px solid #191919;
+  border-bottom: 1px solid white;
 }
 
 nav ul {
@@ -54,11 +54,12 @@ nav a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 
 nav a:hover {
-  border-bottom: 1px solid #19191995;
-  color: #19191995;
+  border-bottom: 1px solid #d3d3d3;
+  color: #d3d3d3;
 }
 
 .btn-container {
@@ -76,12 +77,33 @@ nav a:hover {
 
 .header-btn {
   padding: 10px 30px;
-  border: 2px solid rgb(3, 4, 94);
+  border: 2px solid white;
   background-color: transparent;
-  color: rgb(3, 4, 94);
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 
 .header-btn:hover {
-  background-color: rgba(0, 119, 182, 0.5);
+  background-color: rgba(0, 12, 60, 0.2);
+}
+
+.main-container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.section-title {
+  font-family: "Poppins";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.paragraph {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin: 20px 0;
 }

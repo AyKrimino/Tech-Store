@@ -25,58 +25,60 @@
       </div>
     </header>
 
-    <section>
-      <h2>About Us</h2>
-      <div>
-        <img
-          src="/images/techstore.gif"
-          alt="tech store image"
-          height="300px"
-        />
-      </div>
-      <div>
-        <p>
-          Welcome to Tech Store, your one-stop destination for the latest
-          technology products. Our mission is to provide you with high-quality
-          gadgets that enhance your lifestyle, whether you're a student, a
-          professional, or just a tech enthusiast. We carefully select each
-          product to ensure it meets our high standards of performance and
-          value.
+    <div class="main-container">
+      <section>
+        <h2 class="section-title">About Us</h2>
+        <div>
+          <img
+            src="/images/techstore.gif"
+            alt="tech store image"
+            height="300px"
+          />
+        </div>
+        <div>
+          <p class="paragraph">
+            Welcome to Tech Store, your one-stop destination for the latest
+            technology products. Our mission is to provide you with high-quality
+            gadgets that enhance your lifestyle, whether you're a student, a
+            professional, or just a tech enthusiast. We carefully select each
+            product to ensure it meets our high standards of performance and
+            value.
+          </p>
+          <p class="paragraph">
+            At Tech Store, we believe in making technology accessible to
+            everyone. Our dedicated team is here to assist you in finding the
+            right product to fit your needs. Thank you for choosing us as your
+            trusted tech partner!
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="paragraph">
+          If you have any questions, suggestions, or feedback, please feel free
+          to reach out to us using the form below. We value your input!
         </p>
-        <p>
-          At Tech Store, we believe in making technology accessible to everyone.
-          Our dedicated team is here to assist you in finding the right product
-          to fit your needs. Thank you for choosing us as your trusted tech
-          partner!
-        </p>
-      </div>
-    </section>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <br />
 
-    <section>
-      <h2>Contact Us</h2>
-      <p>
-        If you have any questions, suggestions, or feedback, please feel free to
-        reach out to us using the form below. We value your input!
-      </p>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <br />
-        <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <br />
-        <br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <br />
+          <br />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        <br />
-        <br />
-
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
 
     <footer>
       <h3 class="title">Tech Store</h3>
