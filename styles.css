@@ -37,6 +37,7 @@ header {
   background-size: cover;
   background-position: center;
   color: white;
+  padding-bottom: 10px;
 }
 
 nav {
@@ -167,6 +168,10 @@ footer li {
   border-radius: 20%;
   background-color: #3333331e;
   transition: all 0.3s ease-in-out;
+}
+
+footer a {
+  display: flex;
 }
 
 footer li:hover {
